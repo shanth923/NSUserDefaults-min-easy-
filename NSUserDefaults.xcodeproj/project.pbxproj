@@ -16,6 +16,7 @@
 		316BC76123C83A39007FE090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316BC75F23C83A39007FE090 /* LaunchScreen.storyboard */; };
 		316BC76C23C83A39007FE090 /* NSUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BC76B23C83A39007FE090 /* NSUserDefaultsTests.swift */; };
 		316BC77723C83A39007FE090 /* NSUserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BC77623C83A39007FE090 /* NSUserDefaultsUITests.swift */; };
+		316BC78523C84883007FE090 /* userDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BC78423C84883007FE090 /* userDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		316BC77223C83A39007FE090 /* NSUserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316BC77623C83A39007FE090 /* NSUserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsUITests.swift; sourceTree = "<group>"; };
 		316BC77823C83A39007FE090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316BC78423C84883007FE090 /* userDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				316BC75123C83A28007FE090 /* AppDelegate.swift */,
 				316BC75323C83A28007FE090 /* SceneDelegate.swift */,
 				316BC75523C83A28007FE090 /* ViewController.swift */,
+				316BC78423C84883007FE090 /* userDefault.swift */,
 				316BC75723C83A28007FE090 /* Main.storyboard */,
 				316BC75D23C83A39007FE090 /* Assets.xcassets */,
 				316BC75F23C83A39007FE090 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				316BC75623C83A28007FE090 /* ViewController.swift in Sources */,
 				316BC75223C83A28007FE090 /* AppDelegate.swift in Sources */,
+				316BC78523C84883007FE090 /* userDefault.swift in Sources */,
 				316BC75423C83A28007FE090 /* SceneDelegate.swift in Sources */,
 				316BC75C23C83A28007FE090 /* NSUserDefaults.xcdatamodeld in Sources */,
 			);
